@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css files/home.css" />
+    <script src="js files/startGame.js" type="module" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1>Shooting Game</h1>
+      <div class="home">
+        <form action="game.html">
+          <h2>Name</h2>
+          <input
+            class="name"
+            type="text"
+            placeholder="Please Enter Your Name"
+            name="user"
+            required
+          /><br />
+          <input
+            class="level"
+            type="radio"
+            id="easy"
+            name="lvl"
+            value="1"
+            required
+          />
+          <label for="easy"> Easy</label><br /><br />
+          <input
+            class="level"
+            type="radio"
+            id="difficult"
+            name="lvl"
+            value="2"
+            required
+          />
+          <label for="difficult">Difficult</label><br /><br />
+          <button id="play" type="submit">Play Game</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
