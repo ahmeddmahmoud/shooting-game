@@ -7,9 +7,6 @@ Welcome to the Shooting Game! This is a simple and fun game where players can te
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Game Rules](#game-rules)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
